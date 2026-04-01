@@ -1,0 +1,24 @@
+{
+  "files": [
+    "data\\data_processed\\torah\\genesis_phonetic.txt",
+    "data\\data_processed\\torah\\exodus_phonetic.txt",
+    "data\\data_processed\\torah\\leviticus_phonetic.txt",
+    "data\\data_processed\\torah\\numbers_phonetic.txt",
+    "data\\data_processed\\torah\\deuteronomy_phonetic.txt",
+    "data\\data_processed\\modern\\hagamad_phonetic.txt"
+  ],
+  "L": 150,
+  "mode": "topk",
+  "k": 3,
+  "min_freq": 2,
+  "max_lag": 10,
+  "R": 5,
+  "min_jaccard": 0.5,
+  "block": 80,
+  "perm": 1000,
+  "seed": 1,
+  "csv": "ldcs_summary.csv",
+  "lag_csv": "ldcs_lag_profile.csv",
+  "out_dir": "results\\layer_a_local_dominant_sets",
+  "tag": "baseline"
+}

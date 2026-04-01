@@ -1,0 +1,25 @@
+{
+  "script": "layer_b_local_phonetic_chains.py",
+  "tag": "baseline",
+  "files": [
+    "C:\\Test\\HaShira-Lab\\torah-phonetic-architecture\\data\\data_processed\\torah\\genesis_phonetic.txt",
+    "C:\\Test\\HaShira-Lab\\torah-phonetic-architecture\\data\\data_processed\\torah\\exodus_phonetic.txt",
+    "C:\\Test\\HaShira-Lab\\torah-phonetic-architecture\\data\\data_processed\\torah\\leviticus_phonetic.txt",
+    "C:\\Test\\HaShira-Lab\\torah-phonetic-architecture\\data\\data_processed\\torah\\numbers_phonetic.txt",
+    "C:\\Test\\HaShira-Lab\\torah-phonetic-architecture\\data\\data_processed\\torah\\deuteronomy_phonetic.txt",
+    "C:\\Test\\HaShira-Lab\\torah-phonetic-architecture\\data\\data_processed\\modern\\hagamad_phonetic.txt"
+  ],
+  "params": {
+    "k": [
+      3
+    ],
+    "mode": "exact",
+    "block": 80,
+    "perm": 1000,
+    "seed": 1
+  },
+  "outputs": {
+    "summary_all_csv": "C:\\Test\\HaShira-Lab\\torah-phonetic-architecture\\results\\layer_b_local_phonetic_chains\\baseline\\layer_b_baseline_summary_all.csv",
+    "important_summary_csv": "C:\\Test\\HaShira-Lab\\torah-phonetic-architecture\\results\\layer_b_local_phonetic_chains\\baseline\\layer_b_baseline_important_summary.csv"
+  }
+}
