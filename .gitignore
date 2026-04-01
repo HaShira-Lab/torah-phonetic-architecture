@@ -201,6 +201,11 @@ cython_debug/
 .cursorignore
 .cursorindexingignore
 
+# Project-specific: ignore heavy generated results
+results/stress/
+results/perm/
+results/tmp/
+results/**/raw/
 # Marimo
 marimo/_static/
 marimo/_lsp/
