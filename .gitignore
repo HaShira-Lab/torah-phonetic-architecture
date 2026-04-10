@@ -1,0 +1,12 @@
+# Python
+__pycache__/
+*.pyc
+
+# Project-specific (VERY IMPORTANT)
+results/**/stress_*/
+results/**/books/
+results/**/stress/
+
+# Optional temp
+results/**/perm/
+results/**/tmp/

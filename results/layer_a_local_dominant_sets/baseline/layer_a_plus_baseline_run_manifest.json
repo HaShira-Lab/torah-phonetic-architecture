@@ -1,0 +1,30 @@
+{
+  "script": "layer_a_local_dominant_sets.py",
+  "tag": "baseline",
+  "files": [
+    "D:\\HaShira-Lab\\torah-phonetic-architecture\\data\\data_processed\\torah\\genesis_phonetic.txt",
+    "D:\\HaShira-Lab\\torah-phonetic-architecture\\data\\data_processed\\torah\\exodus_phonetic.txt",
+    "D:\\HaShira-Lab\\torah-phonetic-architecture\\data\\data_processed\\torah\\leviticus_phonetic.txt",
+    "D:\\HaShira-Lab\\torah-phonetic-architecture\\data\\data_processed\\torah\\numbers_phonetic.txt",
+    "D:\\HaShira-Lab\\torah-phonetic-architecture\\data\\data_processed\\torah\\deuteronomy_phonetic.txt",
+    "D:\\HaShira-Lab\\torah-phonetic-architecture\\data\\data_processed\\modern\\hagamad_phonetic.txt"
+  ],
+  "params": {
+    "L": 150,
+    "mode": "topk",
+    "k": 3,
+    "min_freq": 2,
+    "max_lag": 10,
+    "R": 5,
+    "min_jaccard": 0.5,
+    "block": 80,
+    "perm": 1000,
+    "seed": 1
+  },
+  "outputs": {
+    "summary_all_csv": "D:\\HaShira-Lab\\torah-phonetic-architecture\\results\\layer_a_local_dominant_sets\\baseline\\layer_a_plus_baseline_summary_all.csv",
+    "lag_profile_all_csv": "D:\\HaShira-Lab\\torah-phonetic-architecture\\results\\layer_a_local_dominant_sets\\baseline\\layer_a_plus_baseline_lag_profile_all.csv",
+    "important_summary_csv": "D:\\HaShira-Lab\\torah-phonetic-architecture\\results\\layer_a_local_dominant_sets\\baseline\\layer_a_plus_baseline_important_summary.csv",
+    "run_manifest_json": "D:\\HaShira-Lab\\torah-phonetic-architecture\\results\\layer_a_local_dominant_sets\\baseline\\layer_a_plus_baseline_run_manifest.json"
+  }
+}

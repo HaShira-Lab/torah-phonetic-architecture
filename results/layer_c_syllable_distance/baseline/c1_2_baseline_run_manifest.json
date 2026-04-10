@@ -1,0 +1,22 @@
+{
+  "script": "layer_c_syllable_distance.py",
+  "tag": "baseline",
+  "files": [
+    "D:\\HaShira-Lab\\torah-phonetic-architecture\\data\\data_processed\\torah\\genesis_phonetic.txt",
+    "D:\\HaShira-Lab\\torah-phonetic-architecture\\data\\data_processed\\torah\\exodus_phonetic.txt",
+    "D:\\HaShira-Lab\\torah-phonetic-architecture\\data\\data_processed\\torah\\leviticus_phonetic.txt",
+    "D:\\HaShira-Lab\\torah-phonetic-architecture\\data\\data_processed\\torah\\numbers_phonetic.txt",
+    "D:\\HaShira-Lab\\torah-phonetic-architecture\\data\\data_processed\\torah\\deuteronomy_phonetic.txt",
+    "D:\\HaShira-Lab\\torah-phonetic-architecture\\data\\data_processed\\modern\\hagamad_phonetic.txt"
+  ],
+  "params": {
+    "L": 20,
+    "Dmax": 40,
+    "block": 50,
+    "perm": 200,
+    "seed": 1
+  },
+  "outputs": {
+    "summary_all_csv": "D:\\HaShira-Lab\\torah-phonetic-architecture\\results\\layer_c_syllable_distance\\baseline\\c1_2_baseline_summary_all.csv"
+  }
+}

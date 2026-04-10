@@ -1,0 +1,18 @@
+{
+  "script": "layer_c_phrase_final.py",
+  "tag": "baseline",
+  "files": [
+    "D:\\HaShira-Lab\\torah-phonetic-architecture\\data\\data_processed\\torah\\genesis_phonetic.txt",
+    "D:\\HaShira-Lab\\torah-phonetic-architecture\\data\\data_processed\\torah\\exodus_phonetic.txt",
+    "D:\\HaShira-Lab\\torah-phonetic-architecture\\data\\data_processed\\torah\\leviticus_phonetic.txt",
+    "D:\\HaShira-Lab\\torah-phonetic-architecture\\data\\data_processed\\torah\\numbers_phonetic.txt",
+    "D:\\HaShira-Lab\\torah-phonetic-architecture\\data\\data_processed\\torah\\deuteronomy_phonetic.txt",
+    "D:\\HaShira-Lab\\torah-phonetic-architecture\\data\\data_processed\\modern\\hagamad_phonetic.txt"
+  ],
+  "params": {
+    "R": 10,
+    "block": 20,
+    "perm": 200,
+    "seed": 1
+  }
+}
