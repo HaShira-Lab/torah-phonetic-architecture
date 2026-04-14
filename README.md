@@ -182,6 +182,13 @@ Running scripts from other directories may result in incorrect path resolution.
 
 ---
 
+## Requirements
+
+- Python 3.x
+- Required libraries: (matplotlib, numpy, etc.)
+
+---
+
 ## License
 
 MIT License
