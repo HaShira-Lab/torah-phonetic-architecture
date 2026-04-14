@@ -61,7 +61,7 @@ torah-phonetic-architecture/
 ### Comparison corpus (Modern Hebrew)
 
 - Text: *HaGamad Baal HaChotem*  
-  (*The Dwarf with the Nose Ring*, Haim Nahman Bialik)  
+  (*The Dwarf with the Nose Ring*)  
 - Source: Ben Yehuda Project  
 - Features: niqqud, no cantillation  
 
