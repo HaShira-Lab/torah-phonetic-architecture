@@ -180,3 +180,10 @@ MIT License
 - The study is computational and observational  
 - No human subjects are involved  
 - The phonetic representation is a controlled analytic encoding, not a full phonological reconstruction
+
+---
+
+## Citation
+
+If you use this repository, please cite:
+[preprint link]
