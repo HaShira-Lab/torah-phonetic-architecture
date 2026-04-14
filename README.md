@@ -17,35 +17,33 @@ The study compares the Pentateuch to a modern Hebrew prose corpus and evaluates 
 ---
 
 ## Repository Structure
+
 torah-phonetic-architecture/
 │
 ├── src/
-│ ├── analyses/
-│ │ ├── layer_a/
-│ │ ├── layer_b/
-│ │ └── layer_c/
-│ ├── figures/
-│ └── preprocessing/
+│   ├── analyses/
+│   │   ├── layer_a/
+│   │   ├── layer_b/
+│   │   └── layer_c/
+│   ├── figures/
+│   └── preprocessing/
 │
 ├── data/
-│ ├── data_raw/
-│ │ ├── torah/
-│ │ └── modern/
-│ └── data_processed/
-│ ├── torah/
-│ └── modern/
+│   ├── data_raw/
+│   │   ├── torah/
+│   │   └── modern/
+│   └── data_processed/
+│       ├── torah/
+│       └── modern/
 │
 ├── results/
-│ ├── layer_a/
-│ ├── layer_b/
-│ └── layer_c/
+│   ├── layer_a/
+│   ├── layer_b/
+│   └── layer_c/
 │
 ├── protocols/
-│
 ├── run/
-│
 └── README.md
-
 
 ---
 
