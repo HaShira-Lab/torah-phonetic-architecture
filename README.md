@@ -169,6 +169,19 @@ Mapping:
 
 ---
 
+## Running the analyses
+
+All analysis scripts are executed from the repository root directory.  
+All paths inside `.bat` files are defined relative to this root.
+
+Example:
+
+    run\layer_a_consonant_family.bat
+
+Running scripts from other directories may result in incorrect path resolution.
+
+---
+
 ## License
 
 MIT License
