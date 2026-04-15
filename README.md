@@ -43,7 +43,7 @@ The study compares the Pentateuch to a modern Hebrew prose corpus and evaluates 
 ### Comparison corpus (Modern Hebrew)
 
 - Text: *HaGamad Baal HaChotem*  
-  (*The Dwarf with the Nose Ring*)  
+  (*Dwarf Long Nose*)  
 - Source: Ben Yehuda Project  
 - Features: niqqud, no cantillation  
 
