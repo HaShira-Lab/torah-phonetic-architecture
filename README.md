@@ -18,6 +18,7 @@ The study compares the Pentateuch to a modern Hebrew prose corpus and evaluates 
 
 ## Repository Structure
 
+- paper/
 - src/
   - analyses/
   - figures/
@@ -28,6 +29,16 @@ The study compares the Pentateuch to a modern Hebrew prose corpus and evaluates 
 - results/
 - protocols/
 - run/
+
+---
+
+## Paper
+
+Preprint available at:
+[link]
+
+A PDF version is also included in this repository:
+docs/paper_preprint.pdf
 
 ---
 
