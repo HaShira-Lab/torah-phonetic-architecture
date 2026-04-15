@@ -1,18 +1,18 @@
-\# Run scripts
+# Run scripts
 
-
-
-This directory contains `.bat` scripts used to execute all analyses.
-
-
+This directory contains execution scripts for analyses and figures.
 
 All scripts must be run from the repository root:
 
+Typical workflow:
 
+1. Run analysis scripts to generate data:
+   run\layer_*.bat
 
-&#x20;   run\\script\_name.bat
+2. Run figure scripts:
+   run\fig*.bat
 
-
+Figure scripts depend on existing results and will fail if data is not generated.
 
 Each script:
 

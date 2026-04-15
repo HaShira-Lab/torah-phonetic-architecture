@@ -1,5 +1,4 @@
 import argparse
-import os
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -16,10 +15,7 @@ def load_rate(path):
     elif "density" in cols:
         return df[cols["density"]].to_numpy()
     else:
-        raise ValueError(
-            f"No 'rate' or 'density' column found in:\n{path}\n\n"
-            "Check that the input file is a valid output of layer_c_window_density analysis."
-        )
+        raise ValueError(f"No rate/density column in {path}")
 
 
 def downsample(arr, factor=3):
@@ -47,15 +43,6 @@ def main():
 
     if len(args.files) != len(args.labels):
         raise ValueError("files and labels must match")
-
-    # ✔ Проверка существования входных файлов
-    for path in args.files:
-        if not os.path.exists(path):
-            raise RuntimeError(
-                f"Required input file not found:\n{path}\n\n"
-                "Please generate the data first by running:\n"
-                "run\\layer_c_window_density.bat"
-            )
 
     full_series = []
     boundaries = []
@@ -105,7 +92,7 @@ def main():
         x0 = start - 0.5
         text_x = (start + end) / 2
 
-        # vertical segment
+        # short vertical down from boundary
         ax.plot(
             [x0, x0],
             [0, -0.10],
@@ -115,7 +102,7 @@ def main():
             clip_on=False
         )
 
-        # diagonal segment
+        # diagonal toward label
         ax.plot(
             [x0, text_x],
             [-0.10, -0.30],

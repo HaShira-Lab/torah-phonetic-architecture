@@ -43,7 +43,7 @@ The study compares the Pentateuch to a modern Hebrew prose corpus and evaluates 
 ### Comparison corpus (Modern Hebrew)
 
 - Text: *HaGamad Baal HaChotem*  
-  (*Dwarf Long Nose*)  
+  (*Dwarf Long-Nose*) 
 - Source: Ben Yehuda Project  
 - Features: niqqud, no cantillation  
 
@@ -151,6 +151,21 @@ Mapping:
 
 ---
 
+## Figure generation
+
+Figures are generated from precomputed analysis outputs.
+
+Before running figure scripts, the corresponding analysis must be executed.
+
+Example (Layer C density figure):
+
+    run\layer_c_window_density.bat
+    run\fig4_layer_c_torah_stream.bat
+
+Figure scripts do not perform analysis themselves and require existing data in the `results/` directory.
+
+---
+
 ## Running the analyses
 
 All analysis scripts are executed from the repository root directory.  
@@ -164,10 +179,26 @@ Running scripts from other directories may result in incorrect path resolution.
 
 ---
 
+## Quick start
+
+Clone the repository and run analyses from the root directory.
+
+Example (Layer C density figure):
+
+    run\layer_c_window_density.bat
+    run\fig4_layer_c_torah_stream.bat
+
+Figures require precomputed results and will fail if the corresponding analysis has not been executed.
+
+---
+
 ## Requirements
 
 - Python 3.x
-- Required libraries: (matplotlib, numpy, etc.)
+- Required libraries:
+  - numpy
+  - pandas
+  - matplotlib
 
 ---
 
@@ -188,4 +219,4 @@ MIT License
 ## Citation
 
 If you use this repository, please cite:
-[preprint link]
+[preprint link will be added here]
