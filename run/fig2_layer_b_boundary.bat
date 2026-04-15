@@ -1,0 +1,3 @@
+@echo off
+
+python src/figures/fig2_layer_b_boundary.py results/layer_b_boundary_controls/baseline/layer_b_boundary_controls_summary.csv results/figures/fig2_layer_b_boundary.png

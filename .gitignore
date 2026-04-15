@@ -2,7 +2,7 @@
 __pycache__/
 *.pyc
 
-# Project-specific (VERY IMPORTANT)
+# Project-specific
 results/**/stress_*/
 results/**/books/
 results/**/stress/

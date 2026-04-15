@@ -1,0 +1,3 @@
+@echo off
+
+python src\figures\fig4_layer_c_torah_stream.py --files results\layer_c_window_density\baseline\books\genesis\windows.csv results\layer_c_window_density\baseline\books\exodus\windows.csv results\layer_c_window_density\baseline\books\leviticus\windows.csv results\layer_c_window_density\baseline\books\numbers\windows.csv results\layer_c_window_density\baseline\books\deuteronomy\windows.csv --labels genesis exodus leviticus numbers deuteronomy --out results/figures/fig4_layer_c_torah_stream.png
