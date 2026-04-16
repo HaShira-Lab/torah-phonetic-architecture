@@ -1,3 +1,0 @@
-@echo off
-
-python src/figures/fig2_boundary_segment_delta.py results/layer_b_boundary_controls/baseline/layer_b_boundary_controls_summary.csv results/figures/fig2_boundary_segment_delta.png
