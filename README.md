@@ -1,10 +1,10 @@
-# A Global Multi-Layer Phonetic Network Underlying the Biblical Pentateuch
+# A Global Multi-Layer Phonetic Network in the Biblical Pentateuch
 
 ## Overview
 
 This repository accompanies the study:
 
-**“A global multi-layer phonetic network underlying the Biblical Pentateuch”**
+**“A global multi-layer phonetic network in the Biblical Pentateuch”**
 
 The project investigates large-scale phonetic organization in the Biblical Pentateuch using a reproducible computational framework. The analysis models phonetic structure as a multi-layer system consisting of:
 
@@ -13,6 +13,8 @@ The project investigates large-scale phonetic organization in the Biblical Penta
 - syllabic / rhyme-like correspondence (Layer C)  
 
 The study compares the Pentateuch to a modern Hebrew prose corpus and evaluates statistical structure using controlled randomization.
+
+This repository contains all code and data required to reproduce the results reported in the study.
 
 ---
 
@@ -57,6 +59,16 @@ paper/phonetic_multilayer_pentateuch.pdf
   (*Dwarf Long-Nose*) 
 - Source: Ben Yehuda Project  
 - Features: niqqud, no cantillation  
+
+---
+
+## Data
+
+Processed phonetic text files are located in:
+
+data/data_processed/
+
+These were generated from fully vocalized Hebrew sources with standardized preprocessing (see protocols).
 
 ---
 
@@ -158,7 +170,7 @@ Mapping:
 - Figure 1 → Layer A (consonantal structure)  
 - Figure 2 → Layer B (boundary alignment)  
 - Figure 3 → Layer C (syllabic correspondence)  
-- Figure 4/5 → model visualization  
+- Figure 4-5 → model visualization  
 
 ---
 
@@ -200,6 +212,8 @@ Example (Layer C density figure):
     run\fig4_layer_c_torah_stream.bat
 
 Figures require precomputed results and will fail if the corresponding analysis has not been executed.
+
+Ensure that all required input data is present before running analysis scripts.
 
 ---
 
