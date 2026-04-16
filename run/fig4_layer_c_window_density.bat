@@ -1,0 +1,3 @@
+@echo off
+
+python src/figures/fig4_layer_c_window_density.py --torah genesis=results\layer_c_window_density\baseline\books\genesis\windows.csv exodus=results\layer_c_window_density\baseline\books\exodus\windows.csv leviticus=results\layer_c_window_density\baseline\books\leviticus\windows.csv numbers=results\layer_c_window_density\baseline\books\numbers\windows.csv deuteronomy=results\layer_c_window_density\baseline\books\deuteronomy\windows.csv --modern hagamad=results\layer_c_window_density\baseline\books\hagamad\windows.csv --bins 120 --threshold 80 --out results/figures/fig4_layer_c_window_density.png

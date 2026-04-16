@@ -1,0 +1,4 @@
+@echo off
+
+python src/figures/fig3_layer_c_flow_delta.py ^
+results/layer_c_syllable_flow/stress_L10_B50/c1_stress_L10_B50_summary_all.csv results/layer_c_syllable_flow//stress_L20_B50/c1_stress_L20_B50_summary_all.csv results/layer_c_syllable_flow//stress_L40_B50/c1_stress_L40_B50_summary_all.csv results/figures/fig3_layer_c_flow_delta.png
