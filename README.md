@@ -40,7 +40,7 @@ Preprint available at:
 [link]
 
 A PDF version is also included in this repository:
-paper/phonetic_multilayer_pentateuch.pdf
+paper/phonetic_multilayer_pentateuch_v2.pdf
 
 ---
 
