@@ -36,11 +36,11 @@ This repository contains all code and data required to reproduce the results rep
 
 ## Paper
 
-Preprint available at:
-[link]
+Preprint available on Zenodo:  
+https://doi.org/10.5281/zenodo.19653193
 
-A PDF version is also included in this repository:
-paper/phonetic_multilayer_pentateuch_v2.pdf
+A PDF version is included in this repository:  
+paper/multilayer_phonetic_network_pentateuch.pdf
 
 ---
 
