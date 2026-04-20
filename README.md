@@ -137,6 +137,7 @@ Typical workflow:
 4. figures generated from results  
 
 All parameters (block size, k, L, window size, permutations) are defined in scripts and protocols.
+Outputs are provided in CSV format across analyses; intermediate formats may vary by analysis but all results are reproducible from the provided scripts.
 
 ---
 
@@ -243,5 +244,7 @@ MIT License
 
 ## Citation
 
-If you use this repository, please cite:
-[preprint link will be added here]
+If you use this repository or the associated dataset, please cite:
+
+Glikshtern E. A global multi-layer phonetic network in the Biblical Pentateuch. 2026. https://doi.org/10.5281/zenodo.19653193
+
