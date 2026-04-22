@@ -40,7 +40,7 @@ Preprint available on Zenodo:
 https://doi.org/10.5281/zenodo.19653193
 
 A PDF version is included in this repository:  
-paper/multilayer_phonetic_network_pentateuch.pdf
+paper/multilayer_phonetic_network_pentateuch_v2.pdf
 
 ---
 
