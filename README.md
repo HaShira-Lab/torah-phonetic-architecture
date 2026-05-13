@@ -20,7 +20,6 @@ This repository contains all code and data required to reproduce the results rep
 
 ## Repository Structure
 
-- paper/
 - src/
   - analyses/
   - figures/
@@ -31,16 +30,6 @@ This repository contains all code and data required to reproduce the results rep
 - results/
 - protocols/
 - run/
-
----
-
-## Paper
-
-Preprint available on Zenodo:  
-https://doi.org/10.5281/zenodo.19653193
-
-A PDF version is included in this repository:  
-paper/multilayer_phonetic_network_pentateuch_v2.pdf
 
 ---
 
@@ -239,12 +228,4 @@ MIT License
 - The study is computational and observational  
 - No human subjects are involved  
 - The phonetic representation is a controlled analytic encoding, not a full phonological reconstruction
-
----
-
-## Citation
-
-If you use this repository or the associated dataset, please cite:
-
-Glikshtern E. A global multi-layer phonetic network in the Biblical Pentateuch. 2026. https://doi.org/10.5281/zenodo.19653193
 
